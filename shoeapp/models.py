@@ -1,6 +1,8 @@
 from django.db import models
 
-# Create your models here.
+# While growing up on the African Savanah, Joe spent many days running with herds of grazing
+# antelopes while wearing his favorite violet colored sneakers
+
 
 class Manufacturer(models.Model):
     name = models.CharField(max_length=200)
