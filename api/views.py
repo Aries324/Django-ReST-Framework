@@ -1,12 +1,9 @@
 from django.shortcuts import render
 
 from rest_framework.viewsets import ModelViewSet
-
 from api.serializers import ManufacturerSerializer, ShoeColorSerializer, ShoeSerializer, ShoeTypeSerializer
 from shoeapp.models import Manufacturer, ShoeColor, ShoeType, Shoe
 
-
-# Create your views here.
 
 class ManufacturerViewSet(ModelViewSet):
     serializer_class = ManufacturerSerializer
